@@ -1,11 +1,18 @@
 # sunana QARMA - Quran AI Revision and Memorization Assistant
 # my name is QARMA - Quran AI Revision and Memorization Assistant
 #
+# Marubuci / Author: Muhammad Saleh Abdulhamid
+# Wuri / Location: Nigeria
+# Sigar / Version: 4.0.0
+# Farawa / Started: 2026
+# Harshe / Language: Python
+# Yanayi / Status: Active Development
+#
 # na yi wannan shirin don taimaka min wajen haddace Quran
 # i made this program to help me memorize and revise the Quran
 #
 # yadda yake aiki / how it works:
-#   - zan saka surahin da na haddace / i add the surahs i have memorized
+#   - zan saka surorin da na haddace / i'd add the surahs i have memorized
 #   - yana gaya mini wanne ne rauni / it tells me which ones are weak
 #   - yana ba ni tambayoyi / it gives me revision questions
 #   - yana adana bayanai / it saves my progress
@@ -19,12 +26,12 @@ import os
 import random
 from datetime import date
 
-# sunan fayil din da zan adana bayanaina
+# sunan fayil ɗin da zan adana bayanaina
 # name of the file where i will save my data
 MY_SAVE_FILE = "qarma_save.json"
 
 # ----------------------------------------------------------
-# duk surahin Quran 114 - All 114 surahs of the Quran
+# duk surorin Quran 114 - All 114 surahs of the Quran
 # na rubuta suna, larabci, da juz
 # i wrote the name, arabic, and juz number
 # ----------------------------------------------------------
@@ -159,11 +166,11 @@ SURAH_EXPLANATION = {
         "english": "Al-Baqarah is the longest surah in the Quran. It contains Ayatul Kursi which is the greatest verse in the Quran. It protects the home from Shaytan."
     },
     18: {
-        "hausa": "Al-Kahf ana karanta ta kowace Jumma'a. Tana kare mai karanta ta daga fitinar Dajjal. Tana dauke da labarun da suka yi fice kamar Ashabul Kahf da Musa da Khidr.",
+        "hausa": "Al-Kahf ana karanta ta kowace Jumma'a. Tana kare mai karanta ta daga fitinar Dajjal. Tana ɗauke da labarun da suka yi fice kamar Ashabul Kahf da Musa da Khidr.",
         "english": "Al-Kahf is read every Friday. It protects its reader from the trial of the Dajjal. It contains great stories like the People of the Cave and Moses with Khidr."
     },
     36: {
-        "hausa": "Ya-Sin ana kiranta da zuciyar Kur'ani. Manzon Allah SAW ya ce duk wanda ya karanta ta Allah zai sassauta masa harkokin duniya da lahira.",
+        "hausa": "Ya-Sin ana kiranta da zuciyar Ƙur'ani. Manzon Allah SAW ya ce duk wanda ya karanta ta Allah zai sassauta masa harkokin duniya da lahira.",
         "english": "Ya-Sin is called the heart of the Quran. The Prophet SAW said whoever reads it Allah will make his worldly and religious affairs easy."
     },
     55: {
