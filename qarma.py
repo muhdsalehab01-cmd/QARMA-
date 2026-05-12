@@ -3,7 +3,7 @@
 #
 # Marubuci / Author: Muhammad Saleh Abdulhamid
 # Wuri / Location: Nigeria
-# Sigar / Version: 4.0.0
+# Sigar / Version: 1.0
 # Farawa / Started: 2026
 # Harshe / Language: Python
 # Yanayi / Status: Active Development
