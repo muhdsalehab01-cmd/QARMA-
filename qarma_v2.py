@@ -1,6 +1,51 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║                         QARMA                                  ║
+# ║         Quran AI Revision & Memorization Assistant              ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
 # QARMA Version 2 - "QARMA Speaks"
 # wannan sabon sigar QARMA ce wadda zata iya ji muryarka
 # this is the new version of QARMA that can hear your voice
+#
+# Marubuci / Author: Muhammad Saleh Abdulhamid
+# Wuri / Location: Nigeria
+# Sigar / Version: 4.0.0
+# Farawa / Started: 2026
+# Harshe / Language: Python
+# Yanayi / Status: Active Development
+#
+# Bayani / Description:
+# QARMA is an intelligent Quran memorization and revision
+# assistant designed to help Huffaz strengthen long-term
+# retention through adaptive revision, memorization tracking,
+# and future AI-assisted recitation analysis.
+#
+# Abubuwan Da Shirin Yake Yi / Core Features:
+# • Surah memorization tracking
+# • Adaptive revision scoring system
+# • Weak-surah detection
+# • Hausa & English bilingual support
+# • Progress analytics and revision history
+# • Offline-friendly architecture
+# • Voice recitation testing (NEW in v2!)
+# • AI recitation roadmap (future)
+#
+# Buri Nan Gaba / Future Vision:
+# To build an AI-powered Quran learning companion for
+# students of Hifz across Africa and the Muslim world.
+#
+# Sassan Da Ake Shirin Karawa / Modules Planned:
+# - Revision Engine (Na Shirye / Ready)
+# - Quran Database (Na Shirye / Ready)
+# - Memorization Analytics (Na Shirye / Ready)
+# - Voice Recognition System (Na Shirye / Ready - v2)
+# - AI Mistake Detection (Mai Zuwa / Coming)
+# - Mobile & Web Application (Mai Zuwa / Coming)
+#
+# Lasisi / License:
+# MIT License (Planned Open Source Project)
+#
+# ----------------------------------------------------------
 #
 # abin da na kara a wannan version / what i added in this version:
 #   - yana jin ka karanta surah da muryarka
@@ -34,7 +79,7 @@ except ImportError:
 MY_SAVE_FILE = "qarma_save.json"
 
 # ----------------------------------------------------------
-# duk surahin Quran 114 - All 114 surahs
+# duk surorin Ƙurani 114 - All 114 surahs
 # ----------------------------------------------------------
 ALL_SURAHS = {
     1:   {"name": "Al-Fatihah",     "arabic": "الفاتحة",    "juz": 1},
