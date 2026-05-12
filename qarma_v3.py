@@ -1,6 +1,57 @@
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║                         QARMA                                  ║
+# ║         Quran AI Revision & Memorization Assistant              ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
 # QARMA Version 3 - "QARMA Thinks"
 # sunana QARMA v3 - yanzu yana tunani kamar masanin kimiyya
 # now QARMA thinks like a scientist
+#
+# Marubuci / Author: Muhammad Saleh Abdulhamid
+# Wuri / Location: Nigeria
+# Sigar / Version: 4.0.0
+# Farawa / Started: 2026
+# Harshe / Language: Python
+# Yanayi / Status: Active Development
+#
+# Bayani / Description:
+# QARMA is an intelligent Quran memorization and revision
+# assistant designed to help Huffaz strengthen long-term
+# retention through adaptive revision, memorization tracking,
+# and future AI-assisted recitation analysis.
+#
+# Abubuwan Da Shirin Yake Yi / Core Features:
+# • Surah memorization tracking
+# • Adaptive revision scoring system
+# • Weak-surah detection
+# • Forgetting curve engine (NEW in v3!)
+# • Smart daily revision plan (NEW in v3!)
+# • 8-language bilingual interface (NEW in v3!)
+# • Hausa & English bilingual support
+# • Progress analytics and revision history
+# • Offline-friendly architecture
+# • Voice recitation testing (v2)
+# • AI recitation roadmap (future)
+#
+# Buri Nan Gaba / Future Vision:
+# To build an AI-powered Quran learning companion for
+# students of Hifz across Africa and the Muslim world.
+#
+# Sassan Da Ake Shirin Karawa / Modules Planned:
+# - Revision Engine (Na Shirye / Ready)
+# - Quran Database (Na Shirye / Ready)
+# - Memorization Analytics (Na Shirye / Ready)
+# - Voice Recognition System (Na Shirye / Ready - v2)
+# - Forgetting Curve Engine (Na Shirye / Ready - v3)
+# - Smart Daily Planner (Na Shirye / Ready - v3)
+# - Multilanguage System (Na Shirye / Ready - v3)
+# - AI Mistake Detection (Mai Zuwa / Coming)
+# - Mobile & Web Application (Mai Zuwa / Coming)
+#
+# Lasisi / License:
+# MIT License (Planned Open Source Project)
+#
+# ----------------------------------------------------------
 #
 # sabon abu da na kara a v3 / new thing i added in v3:
 #   - forgetting curve engine - yana san yaushe zaka manta
