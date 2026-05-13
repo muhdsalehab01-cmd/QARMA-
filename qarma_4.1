@@ -1,7 +1,83 @@
-# ================================================================
+# ╔══════════════════════════════════════════════════════════════════╗
+# ║                         QARMA                                  ║
+# ║         Quran AI Revision & Memorization Assistant              ║
+# ╚══════════════════════════════════════════════════════════════════╝
+#
 # QARMA V4.1 - COMPLETE PROFESSIONAL VERSION
-# Includes: Login, Security, Persistence, and AI Forgetting Curve
+# Web App Version - Built with Streamlit
 # ================================================================
+# HOW TO DEPLOY (free, no PC needed):
+# 1. Upload this file to your GitHub repository
+# 2. Go to streamlit.io and sign in with GitHub
+# 3. Click "New app" → select this file
+# 4. Your app is live at qarma.streamlit.app
+#
+# Marubuci / Author: Muhammad Saleh Abdulhamid
+# Wuri / Location: Nigeria
+# Sigar / Version: 4.1
+# Farawa / Started: 2026
+# Harshe / Language: Python
+# Yanayi / Status: Active Development
+#
+# Bayani / Description:
+# QARMA is an intelligent Quran memorization and revision
+# assistant designed to help Huffaz strengthen long-term
+# retention through adaptive revision, memorization tracking,
+# and future AI-assisted recitation analysis.
+#
+# Abubuwan Da Shirin Yake Yi / Core Features:
+# • Surah memorization tracking
+# • Adaptive revision scoring system
+# • Weak-surah detection
+# • Forgetting curve engine (NEW in v3!)
+# • Smart daily revision plan (NEW in v3!)
+# • 8-language bilingual interface (NEW in v3!)
+# • Hausa & English bilingual support
+# • Progress analytics and revision history
+# • Offline-friendly architecture
+# • Voice recitation testing (v2)
+# • AI recitation roadmap (future)
+#
+# Buri Nan Gaba / Future Vision:
+# To build an AI-powered Quran learning companion for
+# students of Hifz across Africa and the Muslim world.
+#
+# Sassan Da Ake Shirin Karawa / Modules Planned:
+# - Revision Engine (Na Shirye / Ready)
+# - Quran Database (Na Shirye / Ready)
+# - Memorization Analytics (Na Shirye / Ready)
+# - Voice Recognition System (Na Shirye / Ready - v2)
+# - Forgetting Curve Engine (Na Shirye / Ready - v3)
+# - Smart Daily Planner (Na Shirye / Ready - v3)
+# - Multilanguage System (Na Shirye / Ready - v3)
+# - AI Mistake Detection (Mai Zuwa / Coming)
+# - Mobile & Web Application (Mai Zuwa / Coming)
+#
+# Lasisi / License:
+# MIT License (Planned Open Source Project)
+#
+# ----------------------------------------------------------
+#
+# sabon abu da na kara a v4 / new thing i added in v4:
+#   - forgetting curve engine - yana san yaushe zaka manta
+#   - forgetting curve engine - it knows when you will forget
+#   - smart daily plan - yana gaya maka wane surahohi ka bita yau
+#   - smart daily plan - tells you exactly which surahs to revise today
+#   - multilanguage - Arabic, English, Hausa, Fulfulde, Yoruba, Igbo, Kanuri, Shuwa
+#   - multilanguage - user picks their 2 preferred languages
+#
+# na koyi game da forgetting curve daga Hermann Ebbinghaus
+# i learned about the forgetting curve from Hermann Ebbinghaus
+# wani masanin kimiyya na Jamus wanda ya gano a 1885
+# a German scientist who discovered it in 1885
+#
+# yadda yake aiki / how the forgetting curve works:
+#   - idan ka haddace surah yau za ka manta da yawa cikin kwana 1
+#   - if you memorize today you forget a lot within 1 day
+#   - amma idan ka bita kafin ka manta - kwakwalwarka tana riƙe da tsawo
+#   - but if you revise before forgetting - your brain holds it longer
+#   - Kwana 1 → 3 → 7 → 21 → 60 → 180 → haddace har abada
+#   - Day 1 → 3 → 7 → 21 → 60 → 180 → memorized forever
 
 import streamlit as st
 import json
